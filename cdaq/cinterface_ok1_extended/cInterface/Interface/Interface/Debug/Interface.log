@@ -1,0 +1,50 @@
+﻿Build started 27/09/2016 17:39:07.
+     1>Project "C:\Ali\cdaq\cinterface_ok1_extended\cInterface\Interface\Interface\Interface.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Interface.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Interface.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\robotology\yarp-2.3.66\include" /IC:\Ali\cdaq\table /I"C:\Program Files (x86)\WinPcap\Include" /IC:\Ali\cdaq\daq_distrib_x86x64\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\daq_distrib_x86x64\include\SensorBuffer.cpp ..\..\..\..\table\table.cpp AMTIlib.cpp main.cpp PlotBar.cpp plotWaves.cpp
+         plotWaves.cpp
+         PlotBar.cpp
+         main.cpp
+         AMTIlib.cpp
+         table.cpp
+         SensorBuffer.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\robotology\yarp-2.3.66\include" /IC:\Ali\cdaq\table /I"C:\Program Files (x86)\WinPcap\Include" /IC:\Ali\cdaq\daq_distrib_x86x64\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt timer.c
+         timer.c
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Interface.exe.embed.manifest.res" Debug\Interface_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Ali\cdaq\cinterface_ok1_extended\cInterface\Interface\Debug\Interface.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\robotology\yarp-2.3.66\lib" /LIBPATH:C:\Ali\cdaq\daq_distrib_x86x64\lib\x86 /LIBPATH:"C:\Program Files (x86)\WinPcap\Lib" YARP_OS.lib YARP_init.lib YARP_name.lib YARP_sig.lib AMTIUSBDevice.lib "glui32-debug.lib" freeglut.lib wpcap.lib Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Interface.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Ali\cdaq\cinterface_ok1_extended\cInterface\Interface\Debug\Interface.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Ali\cdaq\cinterface_ok1_extended\cInterface\Interface\Debug\Interface.lib" /MACHINE:X86 Debug\Interface.exe.embed.manifest.res
+         Debug\SensorBuffer.obj
+         Debug\table.obj
+         Debug\AMTIlib.obj
+         Debug\main.obj
+         Debug\PlotBar.obj
+         Debug\plotWaves.obj
+         Debug\timer.obj
+       Manifest:
+         Deleting file "Debug\Interface.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Interface.exe.embed.manifest" /manifest Debug\Interface.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Interface.exe.embed.manifest.res" Debug\Interface_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Ali\cdaq\cinterface_ok1_extended\cInterface\Interface\Debug\Interface.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\robotology\yarp-2.3.66\lib" /LIBPATH:C:\Ali\cdaq\daq_distrib_x86x64\lib\x86 /LIBPATH:"C:\Program Files (x86)\WinPcap\Lib" YARP_OS.lib YARP_init.lib YARP_name.lib YARP_sig.lib AMTIUSBDevice.lib "glui32-debug.lib" freeglut.lib wpcap.lib Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Interface.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Ali\cdaq\cinterface_ok1_extended\cInterface\Interface\Debug\Interface.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Ali\cdaq\cinterface_ok1_extended\cInterface\Interface\Debug\Interface.lib" /MACHINE:X86 Debug\Interface.exe.embed.manifest.res
+         Debug\SensorBuffer.obj
+         Debug\table.obj
+         Debug\AMTIlib.obj
+         Debug\main.obj
+         Debug\PlotBar.obj
+         Debug\plotWaves.obj
+         Debug\timer.obj
+         Interface.vcxproj -> C:\Ali\cdaq\cinterface_ok1_extended\cInterface\Interface\Debug\Interface.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Interface.unsuccessfulbuild".
+         Touching "Debug\Interface.lastbuildstate".
+     1>Done Building Project "C:\Ali\cdaq\cinterface_ok1_extended\cInterface\Interface\Interface\Interface.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.85

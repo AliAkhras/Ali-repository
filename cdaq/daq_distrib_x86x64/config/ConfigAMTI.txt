@@ -1,0 +1,10 @@
+9 1
+1          // set the data format to parameter to 0 (6 channel collection),determines whether the DLL delivers the full 8 channels (1) or only the 6 force and moment channels (0).
+1000       // The Acquisition Rate being Broadcast to the Signal Conditioners
+2          // Current gain /2000
+0.0        // Current Exc /2.5
+0.0        // Zero offset 
+0          // (0) Do not post data ready messages (polling on a periodic basis,) or (1) Post data ready messages (receiving data-ready messages)
+0          // Syncronization mode: 0 (off) 1(on: Collect datasets on rising edge) 2 (on: Collect datasets on falling edge)-> genlock is on, the signal conditioner will collect a single dataset on either the rising or falling edge of an analog input signal, usually a square wave of some sort	
+0          // type of data output by all attached signal conditioners (0,1,2,3,4)->(Metric MSA 6 compatible, Metric fully conditioned, English MSA 6 compatible, English fully conditioned, Bits MSA 6 compatible).
+0.0        // platform rotation in degrees, from 0 to 360

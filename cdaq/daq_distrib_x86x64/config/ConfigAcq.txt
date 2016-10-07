@@ -1,0 +1,10 @@
+5 1
+100000         // maxSamplesAMTI
+100000         // numSamples (total), where post-triger samples are: numSamples - preTrigSamples // unused at the moment
+500            // preTrigSamples  // unused at the moment
+20000           // finite acquisition
+14             // ChanNumber // unused at the moment
+
+	
+
+
